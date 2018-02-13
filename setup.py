@@ -39,10 +39,10 @@ setup(
     long_description=read('README.md'),
     zip_safe = False,
     install_requires=[
-        'Django>=1.4',
-        'markdown',
-        'django-sekizai',
-        'django-mptt',
+        'Django<1.9',
+        'markdown<2.3.0',
+        'django-sekizai<0.7',
+        'django-mptt<0.8',
       ],
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
